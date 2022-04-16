@@ -9,6 +9,7 @@ export default function NewCustomer(props) {
     id:Math.random(),
     ...data
   }
+  
   props.addDataApp(addId);
   }
 
